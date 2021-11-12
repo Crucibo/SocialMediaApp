@@ -81,6 +81,7 @@
             android:textStyle="bold"/>
 
         <EditText
+            android:id="@+id/mobileNumber"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:ems="10"
@@ -95,19 +96,30 @@
     </LinearLayout>
 
 
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
 
     <Button
         android:id="@+id/ContinueBtn"
-        android:layout_width="match_parent"
+        android:layout_width="283dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
         android:layout_marginTop="60dp"
-        android:padding="8dp"
-        android:backgroundTint="#673AB7"
-        android:text="Continue"
-        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
         android:background="@drawable/backbutton"
-       />
+        android:backgroundTint="#673AB7"
+        android:padding="8dp"
+        android:text="Continue"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:id="@+id/progressbarContinue"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+</FrameLayout>
+
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
