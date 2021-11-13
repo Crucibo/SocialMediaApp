@@ -8,7 +8,7 @@
     tools:context=".PhoneNumberActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/profileImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -26,9 +26,9 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintEnd_toEndOf="@+id/profileImageView"
+        app:layout_constraintStart_toStartOf="@+id/profileImageView"
+        app:layout_constraintTop_toBottomOf="@+id/profileImageView" />
 
     <TextView
         android:id="@+id/textView2"
@@ -60,8 +60,8 @@
 
             <EditText
                 android:id="@+id/inputotp1"
-                android:layout_width="40dp"
-                android:layout_height="46dp"
+                android:layout_width="42dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="-35dp"
                 android:gravity="center"
                 android:imeOptions="actionNext"
@@ -75,8 +75,8 @@
 
             <EditText
                 android:id="@+id/inputotp2"
-                android:layout_width="40dp"
-                android:layout_height="46dp"
+                android:layout_width="42dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="-35dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginLeft="4dp"
@@ -92,8 +92,8 @@
 
             <EditText
                 android:id="@+id/inputotp3"
-                android:layout_width="40dp"
-                android:layout_height="46dp"
+                android:layout_width="42dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="-35dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginLeft="4dp"
@@ -109,8 +109,8 @@
 
             <EditText
                 android:id="@+id/inputotp4"
-                android:layout_width="40dp"
-                android:layout_height="46dp"
+                android:layout_width="42dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="-35dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginLeft="4dp"
@@ -126,8 +126,8 @@
 
             <EditText
                 android:id="@+id/inputotp5"
-                android:layout_width="40dp"
-                android:layout_height="46dp"
+                android:layout_width="42dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="-35dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginLeft="4dp"
@@ -143,8 +143,8 @@
 
             <EditText
                 android:id="@+id/inputotp6"
-                android:layout_width="40dp"
-                android:layout_height="46dp"
+                android:layout_width="42dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="-35dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginLeft="4dp"

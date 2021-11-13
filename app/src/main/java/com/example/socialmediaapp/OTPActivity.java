@@ -37,7 +37,7 @@ public class OTPActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otpactivity);
         auth = FirebaseAuth.getInstance();
-
+        getSupportActionBar().hide();
         final Button verifybuttonclick = findViewById(R.id.ContinueBtn);
         inputnumber1 = findViewById(R.id.inputotp1);
         inputnumber2 = findViewById(R.id.inputotp2);
@@ -132,7 +132,7 @@ public class OTPActivity extends AppCompatActivity {
                             public void onCodeSent(@NonNull String newbackendOTP, @NonNull PhoneAuthProvider.ForceResendingToken forceResendingToken) {
                                 super.onCodeSent(newbackendOTP, forceResendingToken);
                                 getOTPBackend=newbackendOTP;
-                                Toast.makeText(OTPActivity.this,"OTP sent sucessfully",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(OTPActivity.this,"OTP sent Sucessfully",Toast.LENGTH_SHORT).show();
 
                             }
                         }

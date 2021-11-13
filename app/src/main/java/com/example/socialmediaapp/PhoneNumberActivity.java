@@ -25,7 +25,7 @@ public class PhoneNumberActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phone_number);
-
+        getSupportActionBar().hide();
         enternumber = findViewById(R.id.mobileNumber);
         getOtpButton = findViewById(R.id.ContinueBtn);
 
