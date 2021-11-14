@@ -171,7 +171,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Didn/'t receive the OTP"
+            android:text="Didn't receive the OTP?"
             android:textColor="@color/black"
             android:textSize="14sp"/>
         <TextView
@@ -196,6 +196,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#673AB7"
+            android:background="@drawable/backbutton"
             android:text="Continue"
             android:layout_marginTop="125dp"/>
             <ProgressBar

@@ -95,7 +95,7 @@ public class OTPActivity extends AppCompatActivity {
                     }
 
 
-                    Toast.makeText(OTPActivity.this, "OTP verify", Toast.LENGTH_SHORT).show();
+                    // Toast.makeText(OTPActivity.this, "OTP verify", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(OTPActivity.this, "Please Enter all Digits", Toast.LENGTH_SHORT).show();
                 }

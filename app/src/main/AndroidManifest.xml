@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SocialMediaApp">
         <activity
-            android:name=".ProfileActivity"
+            android:name=".ChatActivity"
             android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true"></activity>
         <activity
             android:name=".OTPActivity"
             android:exported="true"></activity>
@@ -24,9 +27,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"></activity>
     </application>
 
 </manifest>

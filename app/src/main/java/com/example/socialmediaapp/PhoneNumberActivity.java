@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.socialmediaapp.databinding.ActivityPhoneNumberBinding;
 import com.google.firebase.FirebaseException;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 
@@ -21,11 +22,18 @@ import java.util.concurrent.TimeUnit;
 public class PhoneNumberActivity extends AppCompatActivity {
     EditText enternumber;
     Button getOtpButton;
+   // FirebaseAuth auth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phone_number);
         getSupportActionBar().hide();
+      /*  auth=FirebaseAuth.getInstance();
+        if(auth.getCurrentUser() != null){
+            Intent intent= new Intent(PhoneNumberActivity.this, ChatActivity.class);
+            startActivity(intent);
+            finish();
+        }*/
         enternumber = findViewById(R.id.mobileNumber);
         getOtpButton = findViewById(R.id.ContinueBtn);
 
